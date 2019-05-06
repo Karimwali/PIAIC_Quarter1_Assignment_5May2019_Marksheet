@@ -23,7 +23,7 @@ for i in user_marks:
             print("You have an entered an incorrent number.")
 
 print("")
-print("You Marksheet Scores")
+print("Your Grades are following;")
 for key, value in user_marks.items():
     #print(key, value)
     total_acheived_marks = total_acheived_marks + value
